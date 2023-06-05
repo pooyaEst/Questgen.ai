@@ -235,6 +235,7 @@ def generate_questions_mcq(keyword_sent_mapping,device,tokenizer,model,sense2vec
 
     output_array ={}
     output_array["questions"] =[]
+    print('printing outs')
     print(outs)
     for index, val in enumerate(answers):
         individual_question ={}
